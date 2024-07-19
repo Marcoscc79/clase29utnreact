@@ -1,0 +1,44 @@
+.nav-enlace {
+  background: goldenrod;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.nav-enlace:hover {
+  background: rgb(233, 217, 179);
+  color: black;
+}
+nav {
+  background: brown;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-boton {
+  background: salmon;
+  color: #fff;
+  padding: 10px 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  display: none;
+}
+.nav-boton:hover {
+  background: rebeccapurple;
+}
+@media (max-width: 600px) {
+  nav {
+    background: cadetblue;
+    flex-direction: column;
+  }
+  .nav-enlace {
+    margin: 10px 0;
+  }
+  .nav-boton {
+    display: inline-block;
+  }
+  .desaparece {
+    display: none;
+  }
+}

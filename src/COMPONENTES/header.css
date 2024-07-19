@@ -1,0 +1,29 @@
+.portada {
+  height: 80vh;
+  background-image: url('/src/portada.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header {
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: rgb(232, 105, 36);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  margin-top: 100px;
+  text-shadow: 2px 2px 5px rgba(15, 13, 9, 0.662);
+  text-align: center;
+}
+.info {
+  display: none;
+}
+.container {
+  text-align: center;
+}
